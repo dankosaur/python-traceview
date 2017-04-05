@@ -32,6 +32,7 @@ class Server(Resource):
         :param str layer: (optional) The application layer to filter on.
         :param str controller: (optional) The controller to filter on.
         :param str action: (optional) The action to filter on.
+        :param str partition: (optional) The partition to filter on.
         :return: timeseries data of the application latency and volume
         :rtype: dict
 
@@ -57,6 +58,7 @@ class Server(Resource):
         :param str layer: (optional) The application layer to filter on.
         :param str controller: (optional) The controller to filter on.
         :param str action: (optional) The action to filter on.
+        :param str partition: (optional) The partition to filter on.
         :return: timeseries data of the application latency and volume
         :rtype: dict
 
@@ -82,6 +84,7 @@ class Server(Resource):
         :param str layer: (optional) The application layer to filter on.
         :param str controller: (optional) The controller to filter on.
         :param str action: (optional) The action to filter on.
+        :param str partition: (optional) The partition to filter on.
         :return: timeseries data of the application latency and volume
         :rtype: dict
 
